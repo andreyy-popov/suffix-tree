@@ -34,7 +34,7 @@ void print_suffix_tree_edges(suffix_tree& tree) {
   }
 }
 
-int main() {
+int main(int argc, char* argv[]) {
   const std::string s("ATAAATG$");
   std::shared_ptr<suffix_tree> tree = suffix_tree::make(s);
   print_suffix_tree(*tree);
