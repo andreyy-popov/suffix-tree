@@ -70,10 +70,10 @@ public:
       { return *tree; }
     suffix_tree* operator->()
       { return tree; }
-    // Проверка на равентство.
+    // Проверка на равенство.
     bool operator==(const iterator& it) const
       { return (tree == it.tree); }
-    // Проверка на неравентство.
+    // Проверка на неравенство.
     bool operator!=(const iterator& it) const
       { return (tree != it.tree); }
   };
